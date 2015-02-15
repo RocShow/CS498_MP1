@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MP1 Starter</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+  <div class="stripe bar" id="nav">
+    <div class="wrapper">
+      <div id="profile"><img src="images/profile_256.png"/><span id="name">Xiupeng Ma</span></div>
+      <div id="items">
+        <div class="item selected" id="item_about">About Me</div>
+        <div class="item" id="item_work">Works</div>
+        <div class="item" id="item_contact">Contact Me</div>
+        <div class="item" id="item_message">Message</div>
+      </div>
+      <div class="blank"></div>
+    </div>
+  </div>
+  <div class="placeholder"></div>
+  <div class="stripe" id="aboutMe">
+      <div class="slideContainer">
+        <div class="slideBuffer">
+            <div class="slide" id="s0">
+              <div class="slideTitle"><i class="fa fa-thumbs-up fa-1x"></i><span>What Do I Have?</span></div>
+              <div class="slideContent">
+                <div class="ability" id="ambition">
+                  <div class="abilityLogo"><img src="images/ability_ambition.png" alt=""/></div>
+                  <div class="abilityTitle">Ambition</div>
+                  <div class="abilityContent">Use My Knowledge<br/>
+                    To Help People<br/>
+                    And Change The World</div>
+                </div>
+                <div class="ability" id="creativity">
+                  <div class="abilityLogo"><img src="images/ability_creativity.png" alt=""/></div>
+                  <div class="abilityTitle">Creativity</div>
+                  <div class="abilityContent">The Most Exciting Things<br/>
+                    Are Not Only Good Ideas<br/>
+                    But Also Realizing Them</div>
+                </div>
+                <div class="ability" id="passion">
+                  <div class="abilityLogo"><img src="images/ability_passion.png" alt=""/></div>
+                  <div class="abilityTitle">Passion</div>
+                  <div class="abilityContent">Always Ready To Do<br/>
+                    The Most Challenging<br/>
+                    And Most Amazing Projects</div>
+                </div>
+                <div class="ability" id="geek">
+                  <div class="abilityLogo"><img src="images/ability_geek.png" alt=""/></div>
+                  <div class="abilityTitle">Geek</div>
+                  <div class="abilityContent">Making The World Better<br/>
+                    Is Why I Love Computer<br/>
+                    And What I Will Do</div>
+                </div>
+                <div class="blank"></div>
+              </div>
+            </div>
+            <div class="slide" id="s1">
+              <div class="slideTitle"><i class="fa fa-user fa-1x"></i><span>Who Am I?</span></div>
+              <div class="slideContent">I am a geek who believes computer and the Internet making our world better.
+                I got a bachelor degree of Computer Science and Technology at China Agricultural University (CAU).
+                Now I am pursuing a master degree of Computer Science at University of Illinois at Urbana-Champaign (UIUC).
+                I will graduate in December, 2015. I interned at Sogou.com as a Software Development Engineer (SDE) in 2013.
+                I did research in the Lab of Computer Vision at CAU from 2012 to 2014. Also, I made several apps, add-ons,
+                and plug-ins to make my life easier. All this experience convinced me to believe that computer and Internet
+                can make our life better. With this belief as well as solid professional skills I've learnt from courses and
+                practical development experience, I am ready to do the most challenging and most amazing products.</div>
+            </div>
+            <div class="slide" id="s2">
+              <div class="slideTitle"><i class="fa fa-paperclip fa-1x"></i><span><a name="resume" target="_blank" href="resources/resume.pdf">Click To Have My Resume</a></span></div>
+              <div class="slideContent" id="resume">
+                <video autoplay loop id="bgvid">
+                  <source src="videos/resume.mp4" type="video/mp4">
+                  <img src="images/resume.png" alt="Your browser does not support video tag."/>
+                </video>
+
+              </div>
+            </div>
+            <div class="arrow" id="left"><i class="fa fa-angle-double-left fa-5x"></i></div>
+            <div class="arrow" id="right"><i class="fa fa-angle-double-right fa-5x"></i></div>
+        </div>
+      </div>
+      <div class="blank"></div>
+  </div>
+  <div class="stripe" id="works">
+    <div class="wrapper">
+      <div class="hexagon" id="and">AND</div>
+      <div class="sectionTitle"><i class="fa fa-cubes fa-1x"></i><span>What Did I Do?</span></div>
+      <div class="workCategory" id="work">
+        <div class="workTitle">Work Experience</div>
+        <div class="workContent">
+          <div class="description">Teaching Assistant<br/>Web Developer Intern<br/>Research Assistant</div>
+          <div class="detailsBtn">View Details</div>
+        </div>
+      </div>
+      <div class="workCategory" id="independent">
+        <div class="workTitle">Independent Projects</div>
+        <div class="workContent">
+          <div class="description">I made some apps, add-ons, plug-ins to make my life easier.</div>
+          <div class="detailsBtn">View Details</div>
+        </div>
+      </div>
+      <div class="workCategory" id="course">
+        <div class="workTitle">Course Projects</div>
+        <div class="workContent">
+          <div class="description">Some course projects are interesting enough to fascinate me.</div>
+          <div class="detailsBtn">View Details</div>
+        </div>
+      </div>
+      <div class="workCategory" id="skills">
+        <div class="workTitle">Skills</div>
+        <div class="workContent">
+          <div class="description">The confidence of making best products comes from my solid skills.</div>
+          <div class="detailsBtn">View Details</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="stripe" id="contactMe">
+    <div class="wrapper">
+      <div class="hexagon" id="then">THEN</div>
+      <div class="sectionTitle"><i class="fa fa-phone fa-1x"></i><span>Contact Me</span></div>
+      <div class="content" id="contact">
+        <ul>
+          <li><i class="fa fa-inbox"></i><span>1339 N Lincoln Ave. Apt. 1035B, Urbana, IL, 61801</span></li>
+          <li><i class="fa fa-phone-square"></i><span>217-898-3543</span></li>
+          <li><i class="fa fa-envelope"></i><span><a href="mailto:xma33@illinois.edu">xma33@illinois.edu</a></span></li>
+          <li><i class="fa fa-github"></i><span><a target="_blank" href="https://github.com/RocShow">https://github.com/RocShow</a></span></li>
+          <li><i class="fa fa-home"></i><span><a target="_blank" href="http://www.xpma.net">http://www.xpma.net</a></span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="stripe" id="message">
+    <div class="wrapper">
+      <div class="hexagon" id="or">OR</div>
+      <div class="sectionTitle"><i class="fa fa-wechat fa-1x"></i><span>Leave Me A Message</span></div>
+      <div class="content">
+        <form action="message/" method="post">
+          <div class="field"><span>Name:</span><input type="text" name="name" autocomplete="off"/></div>
+          <div class="field"><span>Email:</span><input type="text" name="email" autocomplete="off"/></div>
+          <div class="field"><span>Phone:</span><input type="text" name="phone" autocomplete="off"/></div>
+          <div class="field" id="textarea"><span id="last">Message:</span><textarea name="message"></textarea></div>
+          <div class="field" id="buttons">
+            <input type="submit" name="submit" value="Submit" />
+            <input type="reset" name="reset" value="Reset"/>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </div>
+  <div class="stripe bar" id="footer">Copyright © 2015 Xiupeng Ma</div>
+  <div class="popup">
+    <div class="wrapper">
+      <div class="banner">
+        <div class="title">Here is a category.</div>
+      </div>
+      <div class="close"><i class="fa fa-times fa-2x"></i></div>
+      <div class="blank"></div>
+      <div class="popContent">
+        <div class="contentColumn" id="list">
+          <div class="listItem">test</div>
+          <div class="listItem selected">test</div>
+        </div>
+        <div class="contentColumn" id="details">
+          <div class="subtitle">test</div>
+          <div class="details"><ul></ul></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="lib/jquery-2.1.3.min/index.js"></script>
+  <script src="js/script.js"></script>
+  <script src="http://localhost:35729/livereload.js"></script>
+</body>
+</html>
