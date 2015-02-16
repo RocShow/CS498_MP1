@@ -136,7 +136,6 @@ $(document).ready(function(){
     var $details = $('.popup .popContent #details');
     var $popup = $('.popup');
     var $close = $popup.find('.close');
-    //var cur = {};
     //load data from mock JSON file
     $.ajax("resources/data.json").done(function(_data){
         data = _data;
