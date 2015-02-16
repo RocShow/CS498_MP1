@@ -224,6 +224,20 @@ body {
             line-height: 40px;
             text-align: center;
             cursor: pointer;
+            -webkit-animation: changingBg 3s infinite;
+            animation: changingBg 3s infinite;
+          }
+
+          @-webkit-keyframes changingBg {
+            0% {background: #ffffff;}
+            50% {background: #999999;}
+            100% {background: #ffffff;}
+          }
+
+          @keyframes changingBg {
+            0% {background: #ffffff;}
+            50% {background: #999999;}
+            100% {background: #ffffff;}
           }
         }
 
