@@ -17,6 +17,7 @@ body {
 
   .bar#nav {
     position:fixed;
+    display: block;
     top:0px;
     height: 70px;
     font-family: $font-primary;
